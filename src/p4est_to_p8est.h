@@ -381,8 +381,8 @@
 #define p4est_vtk_write_footer          p8est_vtk_write_footer
 // -- NEW -- //
 #define p4est_vtk_write_cell_scalar     p8est_vtk_write_cell_scalar
-#define p4est_vtk_write_point_scalar    p8est_vtk_write_point_scalar
 #define p4est_vtk_write_cell_vector     p8est_vtk_write_cell_vector
+#define p4est_vtk_write_point_scalar    p8est_vtk_write_point_scalar
 #define p4est_vtk_write_point_vector    p8est_vtk_write_point_vector
 // -- OLD -- //
 
