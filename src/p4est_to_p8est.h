@@ -379,6 +379,12 @@
 #define p4est_vtk_write_point_dataf     p8est_vtk_write_point_dataf
 #define p4est_vtk_write_point_data      p8est_vtk_write_point_data
 #define p4est_vtk_write_footer          p8est_vtk_write_footer
+// -- NEW -- //
+#define p4est_vtk_write_cell_scalar     p8est_vtk_write_cell_scalar
+#define p4est_vtk_write_point_scalar    p8est_vtk_write_point_scalar
+#define p4est_vtk_write_cell_vector     p8est_vtk_write_cell_vector
+#define p4est_vtk_write_point_vector    p8est_vtk_write_point_vector
+// -- OLD -- //
 
 /* functions in p4est_ghost */
 #define p4est_quadrant_find_owner       p8est_quadrant_find_owner
